@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar" id="upgrades">
+        <button class="botao" id="btn1" disabled>
+            <h2>Mais oxigênio</h2>
+            <p>+1 oxigênio por clique</p><span id="custo1">Custo: 10</span><span id="nivel1">nivel: 0</span>
+        </button>
+
+        <button class="botao" id="btn2" disabled>
+            <h2>Oxigênio II</h2>
+            <p>+2 oxigênio por clique</p><span id="custo2">Custo: 10</span><span id="nivel2">nivel: 0</span>
+        </button>
+
+        <button class="botao" id="btn3" disabled>
+            <h2>Oxigênio III</h2>
+            <p>+5 oxigênio por clique</p><span id="custo3">Custo: 10</span><span id="nivel3">nivel: 0</span>
+        </button>
+    </aside>
+
+    <main>
+        <header>
+            <h1 id="pts">0</h1>
+            <div onclick="clicado()">
+                <img src="./img/arvre.png" alt="">
+            </div>
+        </header>
+    </main>
+
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
